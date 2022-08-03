@@ -1,0 +1,12 @@
+public class Program
+{
+   public static void Main(string[] args)
+        {
+            int[] arr = { 1, 2, 4 };
+            ListNode listNode1 = generateLinkList(arr);
+            int[] arr2 = { 1, 3, 4 };
+            ListNode listNode2 = generateLinkList(arr2);
+            ListNode head = Task4.MergeTwoLists(listNode1, listNode2);
+            print(head);
+        }
+}
