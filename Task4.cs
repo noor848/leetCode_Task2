@@ -13,7 +13,8 @@
     public class Task4
     {  public static ListNode MergeTwoLists(ListNode list1, ListNode list2)
         {
-            ListNode list3 = null, l3 = null;
+            ListNode list3 = null;
+            ListNode l3 = null;
             if (list1 == null)
                 return list2;
             if (list2 == null)
@@ -80,15 +81,6 @@
                 Console.Write(head.val + " ");
                 head = head.next;
             }
-        }
-        public static void Main(string[] args)
-        {
-            int[] arr = { 1, 2, 4 };
-            ListNode listNode1 = generateLinkList(arr);
-            int[] arr2 = { 1, 3, 4 };
-            ListNode listNode2 = generateLinkList(arr2);
-            ListNode head = Task4.MergeTwoLists(listNode1, listNode2);
-            print(head);
         }
     }
 }
