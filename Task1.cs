@@ -9,7 +9,8 @@
 }
 
 public class Task1
-{  public static ListNode DetectCycle(ListNode head)
+{  
+public static ListNode DetectCycle(ListNode head)
     {   ListNode listOne = head;
         ListNode listTwo = head;
         Dictionary<ListNode, ListNode> NodeStore = new Dictionary<ListNode, ListNode>();
