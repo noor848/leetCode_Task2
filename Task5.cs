@@ -21,10 +21,5 @@ public class Task5 {
         }
         return true;
     }
-    public static void Main(string[] args)
-    {
-       string s = "abc",t = "ahbgdc";
-        Console.WriteLine(IsSubsequence(s,t));
-    }
 
 }
