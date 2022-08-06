@@ -6,7 +6,7 @@
          this.next = next;
      }
  }
-public class Task2 : Task2Main
+public class Task2 
 { public static ListNode2 MiddleNode(ListNode2 head)
     {
         ListNode2 listOne = head;
