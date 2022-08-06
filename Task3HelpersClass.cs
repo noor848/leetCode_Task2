@@ -1,6 +1,6 @@
 ﻿namespace Task3
 {
-    internal static class Task3HelpersClass
+    public class Task3HelpersClass
     {
         public static void Main(string[] args)
         {
